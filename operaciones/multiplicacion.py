@@ -1,4 +1,4 @@
-def multiplicar (a, b):
+def multiplicacion (a, b):
     """
     Esta función multiplica dos números y retorna el resultado.
     

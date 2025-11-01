@@ -1,4 +1,4 @@
-def suma (a, b):
+def suma (a,b):
     """
     Esta función suma dos números y retorna el resultado.
     
