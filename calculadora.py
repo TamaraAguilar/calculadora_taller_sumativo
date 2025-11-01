@@ -13,17 +13,22 @@ def main():
     """
 
     # Obtener números
-    a = float(input("Ingresa el primer número: "))
-    b = float(input("Ingresa el segundo número: "))
+    try:   
+        a = float(input("Ingresa el primer número: "))
+        b = float(input("Ingresa el segundo número: "))
+    except ValueError:
+        print ("Parámetro no válido, debe ingresar números.")
+        return
 
     # Realizar operaciones matemáticas
-    print("########################################################")
-    print(f"Suma: { suma(a, b)}")
-    print(f"Resta: { resta(a, b)}")
-    print(f"Multiplicación: { multiplicacion(a, b)}")
-    print(f"División: { division(a, b)}")
-    print(f"Módulo: { modulo(a, b)}")
-    print(f"Exponente: { exponente(a, b)}")
+        print("########################################################")
+        print(f"Suma: { suma(a, b)}")
+        print(f"Resta: { resta(a, b)}")
+        print(f"Multiplicación: { multiplicacion(a, b)}")
+        print(f"División: { division(a, b)}")
+        print(f"Módulo: { modulo(a, b)}")
+        print(f"Exponente: { exponente(a, b)}")
+
 
 # Llamar a la función principal
 if __name__ == "__main__":
