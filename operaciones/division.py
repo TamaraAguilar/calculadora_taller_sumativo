@@ -7,6 +7,6 @@ def division (a, b):
         b (int/float): Segundo número
     
     Returns:
-        int/float: La división de a y b
+        int/float: La división de a y b.
     """
     return a/b
