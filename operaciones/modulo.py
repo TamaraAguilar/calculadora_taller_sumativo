@@ -9,4 +9,7 @@ def modulo (a, b):
     Returns:
         int/float: El resto de a y b
     """
-    return a%b
+    if b == 0:
+        return "No se puede dividir por cero."
+    else: 
+        return a%b
